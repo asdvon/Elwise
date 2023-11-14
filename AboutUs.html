@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="Project.html"><img src="Logo/elwiser.png"></a>
+            <div class="nav-Links" id = "navLinks">
+                <i class="fa fa-times fa-2x" onclick="hideMenu()"></i>
+                <ul>
+                <!-- <li><a href="home.html">Home</a></li> -->
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="term.html">Terms And Condisions</a></li>
+                <li><a href="Services.html">Services</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars fa-2x" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section> 
+     <!---------------ABOUT US CONTEXT------------------>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet. Ut voluptas obcaecati et iusto maiores et velit fugit et quaerat ducimus est sunt ipsa in voluptatem mollitia ab minus sunt?Lorem ipsum dolor sit amet. Ut voluptas obcaecati et iusto maiores et velit fugit et quaerat ducimus est sunt ipsa in voluptatem mollitia ab minus sunt?Lorem ipsum dolor sit amet?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="Images/About.jpg">
+            </div>
+        </div>
+
+    </section>
+           
+    
+        <!---------------Footer------------------>
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet. Ut voluptas obcaecati et iusto maiores  et velit fugit et quaerat<br> ducimus est sunt ipsa in voluptatem mollitia ab minus sunt? Ut voluptas obcaecati et iusto maiores et<br> velit fugit et quaerat ducimus est sunt ipsa in voluptatem mollitia ab minus sunt? </p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="fa fa-heart-o"></i> by: ASDVON</p>
+            </section>
+
+
+
+
+
+     <script>
+                // --------------JavaScript for Menu----------------
+            var navLinks =document.getElementById("navLinks");
+             
+            function showMenu(){
+                navLinks.style.right ="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+
+
+     </script>
+    
+</body>
+</html>     
